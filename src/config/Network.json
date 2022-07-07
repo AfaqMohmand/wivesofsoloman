@@ -1,0 +1,7 @@
+{
+  "NetworkName": "Rinkeby Test Network",
+  "NewRPCURL": "https://rinkeby.infura.io/v3/",
+  "ChainID": "0x4",
+  "Symbol": "ETH",
+  "BlockExplorerURL": "https://rinkeby.etherscan.io"
+}

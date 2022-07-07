@@ -1,0 +1,38 @@
+#root {
+  background-image: url("./assets/Gradient-Image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../Fonts/Montserrat/static/Montserrat-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../Fonts/Montserrat/static/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../Fonts/Montserrat/static/Montserrat-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../Fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../Fonts/Lato/Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../Fonts/Lato/Lato-Bold.ttf") format("truetype");
+}

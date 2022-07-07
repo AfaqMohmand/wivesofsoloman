@@ -1,0 +1,277 @@
+.loadingText {
+  color: white;
+  font-size: 2vw;
+  font-family: "Montserrat-Light";
+  margin-top: 1.5vw;
+}
+.MintedText {
+  color: white;
+  font-size: 2vw;
+  font-family: "Montserrat-Bold";
+  margin-top: 1.5vw;
+  color: #f4c635;
+}
+.nftForm {
+  padding: 1vh 5vw;
+  background: rgba(17, 17, 17, 0.2);
+  backdrop-filter: blur(4px);
+  border: 2px solid #ffffff33;
+  border-radius: 4px;
+  z-index: 2;
+  position: absolute;
+  top: 25vw;
+}
+.nftComplete {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 50px;
+  padding-bottom: 4vw;
+}
+.dummy {
+  position: relative;
+  width: 80%;
+  /* top: 10vw; */
+}
+
+.nft-headers {
+  text-align: center;
+  padding-top: 2vw;
+}
+.nft-headers h1 {
+  font-family: "Montserrat-Light";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 29px;
+  font-size: 1.5em;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.nft-headers p {
+  font-family: "Lato-Light";
+  font-style: normal;
+  line-height: 17px;
+  font-size: 0.875em;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+.first-row {
+  /* max-width: 27vw; */
+  margin: auto;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+}
+.btn {
+  cursor: pointer;
+  user-select: none;
+}
+.mint-Btn {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border: none;
+  align-items: center;
+}
+.first-row span {
+  padding-right: 1vw;
+  font-family: "Montserrat-Light";
+}
+.first-row h1 {
+  font-style: normal;
+  font-family: "Montserrat-Light";
+  font-size: 1em;
+  font-weight: 600;
+  color: #f2f2f2;
+  line-height: 22px;
+}
+.first-row span {
+  color: #f2f2f2;
+}
+.first-row .nft-btn {
+  background: #ffffff;
+  border: none;
+  font-family: "Montserrat-Light";
+  border-radius: 8px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 17px;
+  padding: 2px 7px;
+  font-size: 0.875em;
+  color: #191a1c;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.first-row .nft-btn:hover {
+  background-color: #f4c635;
+  color: white;
+}
+
+.second-row {
+  /* max-width:27vw; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0vw;
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+}
+.second-row h1 {
+  font-family: "Montserrat-Light";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 22px;
+  font-size: 1.125em;
+  color: #f2f2f2;
+}
+.second-row p {
+  font-family: "Montserrat-Light";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 17px;
+  font-size: 0.875em;
+  color: #f2f2f2;
+}
+.mint-btn {
+  width: 100%;
+  height: 3vw;
+  /* padding: 2.5vh 12vw; */
+  background: radial-gradient(
+    79.49% 79.49% at 50% 20.51%,
+    #f7f261 0%,
+    #f4c635 100%
+  );
+  border-radius: 4px;
+  font-family: "Lato-Bold";
+  color: #111111;
+  margin-top: 3vh;
+  border: none;
+  box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47);
+  cursor: pointer;
+}
+.mint-btn:hover {
+  box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+  -webkit-box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+  -moz-box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+}
+.mint-btn:active {
+  background: radial-gradient(
+    79.49% 79.49% at 50% 20.51%,
+    #f4c635 0%,
+    #f7f261 100%
+  );
+}
+.text-start {
+  /* max-width: 26vw; */
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 3vh;
+  padding-bottom: 5vh;
+  font-family: "Lato-Light";
+  text-align: start;
+}
+.text-start p {
+  /* font-family: 'Lato'; */
+  font-weight: 400;
+  font-style: normal;
+  /* line-height: 22px; */
+  font-size: 0.75em;
+  color: #ffffff;
+}
+
+.text-start span {
+  color: #ffd936;
+}
+/* Treasure Hunt */
+.TreasureHunt {
+  background: linear-gradient(180deg, #1e2e44 0%, #17273d 100%);
+  border-radius: 8px;
+  border: 2px solid #ffd936;
+  width: 68.312vw;
+  position: relative;
+  /* top: 65vw; */
+  height: auto;
+  margin: auto;
+  padding: 1.5vw;
+  margin-top: -3vw;
+}
+.treasure-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.treasure-flex h1 {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  font-weight: bolder;
+  font-style: normal;
+  /* line-height: 59px; */
+  /* padding-top: 1.5vw; */
+  font-size: 3em;
+  margin-top: 3vh;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffd936;
+}
+.treasure-flex p {
+  font-family: "Lato-Light";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5vw;
+  max-width: 50vw;
+  margin-top: -2vw;
+  font-size: 1.2vw;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+  .dummy {
+    display: none;
+  }
+  .TreasureHunt {
+    display: none;
+  }
+  .nftForm {
+    position: relative;
+    top: 0;
+  }
+  .mint-btn {
+    width: 100%;
+    height: 5vw;
+  }
+}
+.hide {
+  visibility: hidden;
+}
+@media screen and (max-width: 700px) {
+  .mint-btn {
+    height: 8vw;
+  }
+  .MintedText {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .text-start p {
+    font-size: 0.85vw;
+  }
+}

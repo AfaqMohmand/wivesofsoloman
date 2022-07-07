@@ -1,0 +1,146 @@
+.Header {
+  margin-top: 10vw;
+}
+.Header h1,
+p {
+  text-align: center;
+}
+.Header h1 {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 59px;
+  font-size: 3em;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffd936;
+}
+.Header p {
+  max-width: 70vw;
+  margin: auto;
+  font-family: "Lato-Light";
+  font-style: normal;
+  line-height: 19px;
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.btn1 span img {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.Header .flex {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2em;
+  align-items: center;
+}
+.Header .flex .btn {
+  padding: 1em;
+}
+
+.btn1 {
+  background: radial-gradient(
+    79.49% 79.49% at 50% 20.51%,
+    #f7f261 0%,
+    #f4c635 100%
+  );
+  border-radius: 4px;
+  padding: 1.9vh 2vw !important;
+  text-align: center;
+  margin-right: 2vw;
+}
+.btn1:hover {
+  box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+  -webkit-box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+  -moz-box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+}
+.btn1:active {
+  background: radial-gradient(
+    79.49% 79.49% at 50% 20.51%,
+    #f4c635 0%,
+    #f7f261 100%
+  );
+}
+.btn {
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Lato-bold";
+  color: #111111;
+  border: none;
+  line-height: 19px;
+  font-size: 1em;
+}
+.btn2 {
+  font-family: "Lato-Light";
+  padding: 1.8vh 1.9vw !important;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background: rgba(17, 17, 17, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+.btn2:hover {
+  box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+  -webkit-box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+  -moz-box-shadow: -8px 7px 5px 0px rgba(0, 0, 0, 0.47) inset;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.btn2:active {
+  background: radial-gradient(
+    79.49% 79.49% at 50% 20.51%,
+    white 0%,
+    #f7f261 100%
+  );
+}
+
+@media screen and (max-width: 1100px) {
+  .Header h1 {
+    font-size: 4em;
+    transform: scale(0.8);
+  }
+  .Header p {
+    font-size: 1.5em;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Header h1 {
+    font-size: 2em;
+    transform: scale(0.9);
+  }
+  .Header p {
+    font-size: 1em;
+    line-height: 27px;
+    max-width: 320px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 390px) {
+  .Header h1 {
+    font-size: 2em;
+    transform: scale(0.7);
+  }
+  .Header p {
+    font-size: 1em;
+    line-height: 27px;
+    max-width: 320px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .Header p {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+  .btn {
+    font-size: 1.3em;
+  }
+}
